@@ -1,9 +1,15 @@
 import './App.css';
+import Companies from './components/Companies';
+import Landing from './components/Landing';
+import Offers from './components/Offers';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Import all components here</h1>
+      <Landing />
+      <Offers />
+      <Companies />
     </div>
   );
 }
