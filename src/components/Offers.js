@@ -16,7 +16,7 @@ class Offers extends React.Component{
         <div className="offer">
           <div className="offer__head">
               <h2 className='offer__head1'>Newest Job Offers</h2>
-              <p className='offer__head2'>View all job offers &rarr</p>
+              <p className='offer__head2'>View all job offers &#8594;</p>
             </div>
           <div className='offer__content'>{jobComponent}</div>
         </div>
