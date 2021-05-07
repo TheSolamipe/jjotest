@@ -3,7 +3,7 @@ import "../../styles/Offers.css";
 
 function OfferItem(props) {
     return (
-        <div className="">
+        <div className="offer__item">
             <div className="offer__description">
                 <h3 className="offer__desc--title">{props.offer.offerTitle}</h3>
                 <p className="offer__desc--time">{props.offer.offerTime}</p>
